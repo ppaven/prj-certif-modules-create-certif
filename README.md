@@ -19,11 +19,11 @@ Module to create a letsencrypt certificate and install it in the resource or in 
   - **dns_zone** => Name of the DNS zone
   - **subscription** => Subscription name of the resources
   - **resource_group** => Resource group name of the resources
-  - **resource_type** => Resource type of the resources (AppService, API, WAF, VM, VMG)
+  - **resource_type** => Resource type of the resources (AppService, API, AGW, VM, VMG)
   - **resources** => List of resources separate by a comma
   
 - Optional:
-  - **endpoint_listener** => API : Endpoint name. WAF : listener name
+  - **endpoint_listener** => API : Endpoint name. AGW : listener name
   - **keyvault** => local keyvault to store the certificate  
   - **test** => Letencrypt Staging mode or not (Default = false)
 - 
